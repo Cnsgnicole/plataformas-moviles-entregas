@@ -5,3 +5,10 @@ body{
 h1{
     text-align: center;
 }
+p{
+    font-family: sans-serif;
+}
+h1, h2, h3{
+    color: #eee;
+    
+}
