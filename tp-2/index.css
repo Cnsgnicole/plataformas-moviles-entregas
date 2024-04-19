@@ -9,6 +9,51 @@ p{
     font-family: sans-serif;
 }
 h1, h2, h3{
-    color: #eee;
-    
+    color:#eee;
+    text-transform: uppercase;
+
+}
+strong{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: white;
+}
+.the-force{
+    background-color: #444;
+    font-weight: bold;
+}
+.light-side{
+    color:#66f;
+}
+.dark-side{
+    color:#f33;
+}
+#og-trilogy{
+    list-style-type: circle;
+}
+ul:nth-of-type(2){
+    padding-left: 1px;
+}
+ul:nth-of-type(3) li:last-child{
+    margin-top: 10px;
+}
+p:nth-of-type(1)::first-line{
+    color:#efe;
+}
+h1:hover{
+    color:yellow;
+}
+a:visited{
+    color:grey; 
+}
+a:not([href]){
+    font-style: italic;
+}
+li:nth-child(even){
+    width: fit-content;
+    background-color: #111;
+}
+li:nth-child(odd){
+    width: fit-content;
+    background-color: #333;
 }
