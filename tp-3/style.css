@@ -1,0 +1,23 @@
+.titulo{
+    text-align:center;
+}
+html p{
+    font-family: serif;
+}
+article #primer-parrafo{
+    background-color: #CEE;
+}
+#primer-parrafo em{
+    color: #933;
+}
+body .parrafo a[href]{
+    outline: 1px solid #333
+}
+html body p.fuente.parrafo{
+    opacity: 100%;
+    color: #000 !important; 
+}  
+.complicado{
+    font-weight: bold !important;
+    color: #C62 !important;
+}
